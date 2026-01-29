@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Monitoring VBG & Protection Juridique - Tchad</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);min-height:100vh;color:#1f2937}
+.glass-effect{background:rgba(255,255,255,0.95);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.2)}
+.module-vbg{background:linear-gradient(135deg,#8b5cf6 0%,#7c3aed 100%)}
+.module-juridique{background:linear-gradient(135deg,#3b82f6 0%,#2563eb 100%)}
+.status-en-cours{background-color:#fef3c7;color:#92400e;border:1px solid #fbbf24}
+.status-résolu{background-color:#d1fae5;color:#065f46;border:1px solid #10b981}
+.status-en-attente{background-color:#ffedd5;color:#9a3412;border:1px solid #f97316}
+.status-fermé{background-color:#f3f4f6;color:#374151;border:1px solid #6b7280}
+.fade-in{animation:fadeIn .4s ease-out}
+@keyframes fadeIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.scale-in{animation:scaleIn .3s ease-out}
+@keyframes scaleIn{from{transform:scale(.9);opacity:0}to{transform:scale(1);opacity:1}}
+.hover-lift{transition:all .3s ease}
+.hover-lift:hover{transform:translateY(-5px);box-shadow:0 20px 25px -5px rgba(0,0,0,0.1)}
+.btn-primary{transition:all .3s ease}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 20px rgba(0,0,0,0.2)}
+.input-field{transition:all .3s ease}
+.input-field:focus{transform:translateY(-2px);box-shadow:0 4px 12px rgba(139,92,246,0.15)}
+.card-shadow{box-shadow:0 4px 6px -1px rgba(0,0,0,0.1);transition:box-shadow .3s ease}
+.card-shadow:hover{box-shadow:0 20px 25px -5px rgba(0,0,0,0.1)}
+::-webkit-scrollbar{width:8px;height:8px}
+::-webkit-scrollbar-track{background:#f1f1f1;border-radius:4px}
+::-webkit-scrollbar-thumb{background:#888;border-radius:4px}
+::-webkit-scrollbar-thumb:hover{background:#555}
+@media print{.no-print{display:none !important}body{background:white}}
+</style>
+</head>
+<body>
